@@ -39,6 +39,8 @@ margin-bottom:-50px;
 
 }
 
+.nav-stacked li a {font-size:22px;text-align:left;}
+
 header{
 	background: url(../images/header.jpg);
 	margin-top: 50px;
@@ -127,6 +129,10 @@ background-color: #2d3334;
 	border-style: solid #557330;
 }
 
+.features h2{
+	color:#0A5E7E
+}
+
 .about_title h2{
 	font-size: 25px;
 	color: #3d3d3d;
@@ -143,42 +149,42 @@ background-color: #2d3334;
 	color:black;
 }
 
-.solicitors h2{
+.prices h2{
 	font-size: 25px;
 	color: white;
 	margin-top: 25px;
 	margin-bottom: 21px;
 }
 
-.solicitors a{
+.prices a{
 	color: #FADA3B;
 	margin-top: 25px;
 	margin-bottom: 21px;
 }
-.solicitors h3{
+.prices h3{
 	color: white;
 	margin-top: 25px;
 	margin-bottom: 21px;
 }
 
-.solicitors p{
+.prices p{
 	color: white;
 	margin-bottom: 21px;
 }
 
-.solicitors .col-md-3{
+.prices .col-md-3{
 	border-style: solid black;
 	border-width: medium;
  }
 
-.solicitors i{
+.prices i{
 	font-size: 25px;
 	color: #FADA3B;
 }
 
-.solicitors	{
+.prices	{
 	padding-top: 15px;
-	background-color: #557330;
+	background-color: #0A5E7E;
 }
 /*Testimonial*/
 .testimonial{
@@ -242,19 +248,19 @@ padding-top: 10px;
 
 /*Fun Facts*/
 .fun_facts{
-	background: url(../images/ContractSigning.jpg);
+	background: url(../images/cloud-sharing.jpg);
 	background-size: 100% 100%;
 	background-attachment: fixed !important;
 	background-repeat: no-repeat;
 }
-.fun_facts .section_overlay{
+.fun_facts .section_overflay{
 background: rgba(71,71,71,.8);
 padding-bottom: 30px;
 }
 
 
 .fun_facts3{
-	background: url(../images/ContractSigning.jpeg);
+	background: url(../images/cloud-sharing.jpg);
 	background-size: 100% 100%;
 	background-attachment: fixed !important;
 	background-repeat: no-repeat;
@@ -472,7 +478,7 @@ border: 0px solid #fff;
 }
 .form_submit{
 width: 100%;
-background: #557330;
+background: #0A5E7E;
 border-radius: 0px;
 color: #fff;
 padding-top: 13px;
